@@ -4,7 +4,7 @@ import Particles from "./components/particles";
 
 const navigation = [
   { name: "Portfolio", href: "/projects" },
-  { name: "Experience", href: "/contact" },
+  { name: "Experience", href: "/experience" },
   { name: "Contact", href: "/contact" },
 
 ];
@@ -33,12 +33,15 @@ export default function Home() {
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         ganesh  iyer
       </h1>
+      <h2 className="py-3.5 px-0.5 z-10 text-1xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-5xl whitespace-nowrap bg-clip-text">
+        Mindful Innovation . Innovate Mindfully
+      </h2>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-400 ">
+        <h3 className="text-sm text-zinc-400 ">
         Turning complex problems into innovative products. I specialize everything Product 0-1 -  Strategy to Execution to GTM.
-        </h2>
+        </h3>
       </div>
     </div>
   );
