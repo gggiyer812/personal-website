@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "ganeshiyer.xyz",
-    template: "%s | ganeshiyer.xyz",
+    default: "ganeshiyer.ai",
+    template: "%s | ganeshiyer.ai",
   },
   description: "Principal Technical Product Manager | Data Platforms | AI | Cloud",
   openGraph: {
-    title: "chronark.com",
+    title: "ganeshiyer.ai",
     description:
       "Principal Technical Product Manager | Data Platforms | AI | Cloud",
-    url: "https://ganeshiyer.xyz",
-    siteName: "ganeshiyer.xyz",
+    url: "https://ganeshiyer.ai",
+    siteName: "ganeshiyer.ai",
     images: [
       {
         url: "https://chronark.com/og.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "ganeshiyer",
     card: "summary_large_image",
   },
   icons: {
