@@ -14,7 +14,7 @@ export default function ExperiencePage() {
 
         <div className="flex gap-8 text-zinc-400 text-sm">
           <Link href="/projects" className="hover:text-white">
-            Porjects
+            Portfolio
           </Link>
           <Link href="/contact" className="hover:text-white">
             Contact
