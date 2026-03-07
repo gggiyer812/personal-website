@@ -158,7 +158,7 @@ export default function ExperiencePage() {
         <div className="flex flex-col items-center md:items-end">
 
           <img
-            src="/Ganesh Profile.jpeg"
+            src="/ganeshiyersketch.png"
             className="w-72 h-72 object-cover rounded-full shadow-2xl border border-zinc-800"
           />
 
