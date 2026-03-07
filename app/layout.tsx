@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "ganeshiyer.ai",
     images: [
       {
-        url: "https://ganeshiyer.ai/ganeshiyersketchnoname.png",
+        url: "https://ganeshiyer.ai/ganeshiyersketchn.png",
         width: 1920,
         height: 1080,
         alt: "Ganesh Iyer",
