@@ -6,14 +6,15 @@ const navigation = [
   { name: "Portfolio", href: "/projects" },
   { name: "Experience", href: "/experience" },
   { name: "Contact", href: "/contact" },
-
 ];
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
-      <nav className="my-16 animate-fade-in">
-        <ul className="flex items-center justify-center gap-4">
+    <div className="flex flex-col items-center justify-center w-screen min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black px-6">
+
+      {/* Navigation */}
+      <nav className="my-10 animate-fade-in">
+        <ul className="flex items-center justify-center gap-6">
           {navigation.map((item) => (
             <Link
               key={item.href}
@@ -25,27 +26,38 @@ export default function Home() {
           ))}
         </ul>
       </nav>
+
+      {/* Divider */}
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <Particles
-        className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={100}
-      />
-      <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-        ganesh  iyer
+
+      {/* Background particles */}
+      <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100} />
+
+      {/* Name */}
+      <h1 className="z-10 text-center text-4xl sm:text-6xl md:text-9xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display bg-clip-text">
+        ganesh iyer
       </h1>
-      <h2 className="py-3.5 px-0.5 z-10 text-xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-5xl tracking-wide bg-clip-text">
-        Mindful Innovation
-        <span className="mx-6 text-zinc-400">•</span>
-        Innovate Mindfully
+
+      {/* Tagline */}
+      <h2 className="mt-4 z-10 text-center text-sm sm:text-xl md:text-3xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display tracking-wide bg-clip-text leading-relaxed">
+
+        <span>Mindful Innovation</span>
+        <span className="mx-4 text-zinc-400">•</span>
+        <span>Innovate Mindfully</span>
+
       </h2>
 
+      {/* Divider */}
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
-        <h3 className="text-sm text-zinc-400 ">
-        Turning complex problems into innovative products. I specialize everything Product 0-1 -  Strategy to Execution to GTM.
+
+      {/* Description */}
+      <div className="my-12 text-center animate-fade-in max-w-xl">
+        <h3 className="text-sm sm:text-base text-zinc-400 leading-relaxed">
+          Turning complex problems into innovative products.  
+          I specialize in Product 0→1 — from Strategy to Execution to GTM.
         </h3>
       </div>
+
     </div>
   );
-
 }
