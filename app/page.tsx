@@ -10,8 +10,8 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black px-6">
-
+    <div className="flex flex-col items-center justify-center w-screen min-h-screen bg-gradient-to-tl from-black via-zinc-600/20 to-black px-6">
+      
       {/* Navigation */}
       <nav className="my-10 animate-fade-in">
         <ul className="flex items-center justify-center gap-6">
