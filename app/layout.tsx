@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "ganeshiyer.ai",
     images: [
       {
-        url: "/oggi.png",
+        url: "https://chronark.com/og.png",
         width: 1920,
         height: 1080,
         alt: "Ganesh Iyer",
