@@ -18,9 +18,10 @@ export const metadata: Metadata = {
     siteName: "ganeshiyer.ai",
     images: [
       {
-        shortcut: "/oggi.png",
+        url: "/oggi.png",
         width: 1920,
         height: 1080,
+        alt: "Ganesh Iyer",
       },
     ],
     locale: "en-US",
