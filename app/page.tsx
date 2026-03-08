@@ -33,16 +33,13 @@ export default function Home() {
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         ganesh  iyer
       </h1>
-      <h2 className="mt-6 z-10 text-center text-xs sm:text-lg md:text-3xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display tracking-wider leading-loose bg-clip-text px-4">
+       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <div className="my-16 text-center animate-fade-in">
+        <h2 className="text-sm text-zinc-400 ">
+        Mindful Innovation . Innovate Mindfully
+        </h2>
+      </div>
       
-        <span>Mindful Innovation</span>
-      
-        <span className="mx-5 text-zinc-500">•</span>
-      
-        <span>Innovate Mindfully</span>
-      
-      </h2>
-
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h3 className="text-sm text-zinc-400 ">
