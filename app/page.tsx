@@ -33,7 +33,7 @@ export default function Home() {
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         ganesh  iyer
       </h1>
-      <h2 className="py-3.5 px-0.2 z-10 text-.2xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-5xl whitespace-nowrap bg-clip-text">
+      <h2 className="py-3.5 px-0.2 z-10 text-1l text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-1xl md:text-1xl whitespace-nowrap bg-clip-text">
         Mindful Innovation . Innovate Mindfully
       </h2>
 
