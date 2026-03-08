@@ -6,47 +6,82 @@ const navigation = [
   { name: "Portfolio", href: "/projects" },
   { name: "Experience", href: "/experience" },
   { name: "Contact", href: "/contact" },
-
 ];
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
-      <nav className="my-16 animate-fade-in">
-        <ul className="flex items-center justify-center gap-4">
+    <div className="flex flex-col items-center justify-center w-screen min-h-screen px-6 overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+
+      {/* Navigation */}
+      <nav className="my-12 animate-fade-in">
+        <ul className="flex items-center justify-center gap-8">
+
           {navigation.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
-            >
-              {item.name}
-            </Link>
+            <li key={item.href} className="relative group">
+
+              <Link
+                href={item.href}
+                className="text-sm sm:text-base font-semibold tracking-wide text-zinc-400 transition-colors duration-300 hover:text-white"
+              >
+                {item.name}
+              </Link>
+
+              {/* Premium hover underline */}
+              <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
+
+            </li>
           ))}
+
         </ul>
       </nav>
-      <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+
+      {/* Top divider */}
+      <div className="hidden w-screen h-px md:block animate-glow animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/40 to-zinc-300/0" />
+
+      {/* Particles Background */}
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-        ganesh  iyer
+
+      {/* Name */}
+      <h1 className="z-10 mt-6 text-center text-5xl sm:text-7xl md:text-9xl text-transparent bg-white bg-clip-text font-display animate-title leading-tight">
+
+        Ganesh Iyer
+
       </h1>
-       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-400 ">
-        Mindful Innovation . Innovate Mindfully
+
+      {/* Divider */}
+      <div className="hidden w-screen h-px mt-8 md:block animate-glow animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/40 to-zinc-300/0" />
+
+      {/* Tagline */}
+      <div className="my-12 text-center animate-fade-in max-w-xl">
+
+        <h2 className="text-lg sm:text-xl md:text-2xl text-zinc-400 tracking-widest leading-relaxed">
+
+          Mindful Innovation
+          <span className="mx-4 text-zinc-500">•</span>
+          Innovate Mindfully
+
         </h2>
+
       </div>
-      
-      <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
-        <h3 className="text-sm text-zinc-400 ">
-        Turning complex problems into innovative products. I specialize everything Product 0-1 -  Strategy to Execution to GTM.
+
+      {/* Divider */}
+      <div className="hidden w-screen h-px md:block animate-glow animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/40 to-zinc-300/0" />
+
+      {/* Description */}
+      <div className="my-12 text-center animate-fade-in max-w-2xl">
+
+        <h3 className="text-sm sm:text-base text-zinc-400 leading-relaxed">
+
+          Turning complex problems into innovative products.
+          I specialize in Product 0→1 — from Strategy to Execution to GTM.
+
         </h3>
+
       </div>
+
     </div>
   );
-
 }
