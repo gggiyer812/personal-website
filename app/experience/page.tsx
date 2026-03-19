@@ -115,10 +115,10 @@ export default function ExperiencePage() {
               </p>
 
               <p className="text-zinc-400 mt-4 leading-relaxed max-w-xl">
-                Owned enterprise reference data platform and contract lifecycle
-                management systems supporting trading and risk operations.
-                Delivered large-scale platform initiatives across engineering
-                and analytics teams.
+                Owned enterprise reference data platform and Legal Document Library, 
+                Contract Lifecycle Management systems for Legal Teams to  supporting trading 
+                and risk operations. Delivered large-scale platform initiatives across 
+                engineering and analytics teams.
               </p>
 
             </div>
