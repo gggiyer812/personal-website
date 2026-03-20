@@ -30,7 +30,7 @@ export default function SkillsPage() {
       {/* Header */}
       <div className="text-center mb-20">
         <h1 className="text-5xl md:text-7xl font-bold tracking-[0.3em]">
-          Product and Technical Skills
+          Skills
         </h1>
         <p className="text-zinc-400 mt-6 tracking-[0.2em]">
           MY KNOWLEDGE LEVEL IN PRODUCT
